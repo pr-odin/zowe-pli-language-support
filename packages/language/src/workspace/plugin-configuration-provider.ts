@@ -211,8 +211,15 @@ export class PluginConfigurationProvider {
    * Most recent config diagnostics from the last loadConfigurations() run
    */
   private configLspDiagnostics: PluginConfigLspDiagnostics;
-
   private configInternalDiagnostics: PluginConfigInternalDiagnostics;
+
+  /**
+   * Internal-form config diagnostics from the most recent processing run.
+   * These mirror the published LSP diagnostics so
+   * {@link getConfigInternalDiagnostics} can expose them.
+   */
+  private procGrpsInternalDiagnostics: Diagnostic[] = [];
+  private programConfigInternalDiagnostics: Diagnostic[] = [];
 
   /**
    * File system provider this configuration loads through. Injected at
@@ -253,6 +260,13 @@ export class PluginConfigurationProvider {
 
   public getConfigInternalDiagnostics(): ReadonlyMap<string, Diagnostic[]> {
     return this.configInternalDiagnostics;
+  }
+
+  private clearConfigDiagnostics(): void {
+    this.configInternalDiagnostics.clear();
+    this.configLspDiagnostics.clear();
+    this.programConfigInternalDiagnostics = [];
+    this.procGrpsInternalDiagnostics = [];
   }
 
   /**
@@ -356,6 +370,7 @@ export class PluginConfigurationProvider {
    * @returns Diagnostics keyed by config URI
    */
   private async loadConfigurations(): Promise<PluginConfigLspDiagnostics> {
+    this.clearConfigDiagnostics();
     const workspaceUri = UriUtils.toUri(this.workspacePath);
 
     const cancel = startLongRunningOperation(
@@ -369,7 +384,6 @@ export class PluginConfigurationProvider {
     const processGroupDiagnostics = await this.loadProcessGroupConfig(
       UriUtils.joinPath(workspaceUri, ".pliplugin", "proc_grps.json"),
     );
-    let unknownProcessGroupsDiagnostic: Diagnostic[] = [];
     if (document && this.processGroupConfigs.size) {
       const validation = validatePluginConfig(
         document,
@@ -377,14 +391,18 @@ export class PluginConfigurationProvider {
         this.getProcessGroupNames(),
       );
       programConfigDiagnostics.push(...validation.programConfigDiagnostics);
-      unknownProcessGroupsDiagnostic.push(
+      this.programConfigInternalDiagnostics.push(
         ...validation.unknownProcessGroupsDiagnostic,
       );
     }
     cancel();
 
     this.configInternalDiagnostics = new Map<string, Diagnostic[]>([
-      [this.getConfigUri("pgm_conf.json"), unknownProcessGroupsDiagnostic],
+      [
+        this.getConfigUri("pgm_conf.json"),
+        this.programConfigInternalDiagnostics,
+      ],
+      [this.getConfigUri("proc_grps.json"), this.procGrpsInternalDiagnostics],
     ]);
     this.configLspDiagnostics = new Map<string, LspDiagnostic[]>([
       [this.getConfigUri("pgm_conf.json"), programConfigDiagnostics],
@@ -601,15 +619,16 @@ export class PluginConfigurationProvider {
             range,
             lib,
           ),
+          uri: configDocument?.uri,
           data: { lib, pgroup: pgroupName, path },
         };
         unresolvedLibEntries.push({ lib, pgroup: pgroupName, path });
+        this.procGrpsInternalDiagnostics.push(unresolvedLibDiagnostic);
         diagnostics.push(
           toLspDiagnostic(unresolvedLibDiagnostic, configDocument),
         );
       }
     }
-
     if (configDocument) {
       this.lastProcGrpsSnapshot = {
         entries: unresolvedLibEntries,
