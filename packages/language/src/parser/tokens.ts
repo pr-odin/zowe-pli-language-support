@@ -362,7 +362,7 @@ export const ExecFragment = createToken({
 });
 export const ID = createToken({
   name: "ID",
-  pattern: /[$@#_a-z][\w_$@#]*/iy,
+  pattern: /[$@#_a-zæøå][\w_$@#æøå]*/iy,
 });
 export const NUMBER = createToken({
   name: "NUMBER",

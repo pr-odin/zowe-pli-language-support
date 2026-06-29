@@ -243,7 +243,7 @@ const stringRegex = tokens.STRING_TERM.PATTERN as RegExp;
 const numberRegex = tokens.NUMBER.PATTERN as RegExp;
 
 function tokenizeRegex(tokenType: TokenType, regex: RegExp): TokenizeFunc {
-  return function (context: TokenizerContext): tokens.Token | undefined {
+  return function(context: TokenizerContext): tokens.Token | undefined {
     const start = context.index;
     regex.lastIndex = start;
     const match = regex.exec(context.input);
@@ -374,7 +374,7 @@ function generateDoubleCharFunc(
   tokenType: TokenType,
   others: TwoCharToken[],
 ): TokenizeFunc {
-  return function (context: TokenizerContext): tokens.Token | undefined {
+  return function(context: TokenizerContext): tokens.Token | undefined {
     if (context.index + 1 < context.length) {
       const nextChar = context.input[context.index + 1];
 
@@ -391,7 +391,7 @@ function generateDoubleCharFunc(
 }
 
 function generateSingleCharFunc(tokenType: TokenType): TokenizeFunc {
-  return function (context: TokenizerContext): tokens.Token | undefined {
+  return function(context: TokenizerContext): tokens.Token | undefined {
     context.advance(1, false);
     return context.createTokenInstance(tokenType);
   };
@@ -435,6 +435,17 @@ function isIdChar(char: number): boolean {
     (char >= 65 && char <= 90) ||
     // a-z
     (char >= 97 && char <= 122) ||
+    //
+    // Æ Ø Å
+    char === 198 ||
+    char === 216 ||
+    char === 197 ||
+
+    // æ ø å
+    char === 230 ||
+    char === 248 ||
+    char === 229 ||
+
     // 0-9
     (char >= 48 && char <= 57) ||
     // _
@@ -475,7 +486,7 @@ let notSymbols = defaultNot;
 let includeAlt: string | undefined = undefined;
 
 export function initLexer(compilerOptions: CompilerOptions): void {
-  orSymbols = compilerOptions.or ?? defaultOr;
+  orSymbols = (compilerOptions.or ?? defaultOr) + "!";
   notSymbols = compilerOptions.not ?? defaultNot;
   includeAlt = compilerOptions.pp?.ppInclude?.value;
   funcs = new Array(256);

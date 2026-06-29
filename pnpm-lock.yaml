@@ -4,10 +4,6 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-overrides:
-  isexe: 3.1.1
-  minimatch: 10.2.2
-
 importers:
 
   .:
@@ -275,252 +271,331 @@ packages:
 
   '@codingame/monaco-vscode-0764a541-f621-5022-a1f8-cbdadacae5ec-common@17.2.1':
     resolution: {integrity: sha512-f8UWLVLAt+AUQNQWV8UELJ2XEbK83wgQTEjxmg7Q1DN6PgDhP3y+HKRZ4NIce+Ijjng/j0NZ7HorJAtjFgdHpA==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-0b087f42-a5a3-5eb9-9bfd-1eebc1bba163-common@17.2.1':
     resolution: {integrity: sha512-zY67e8pQLfK8WP1uRcia1449kOjYt6VRSEiZHjmLTA+UY38ibSmJm8iEenjm13hs2NAcVrSN90cok9m745AXzg==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-0c06bfba-d24d-5c4d-90cd-b40cefb7f811-common@17.2.1':
     resolution: {integrity: sha512-m60eVzhFKfu00KzgIcIan8ScKQEhnkfa1wzGeZC8H05lCUUV0YljzXLL+l5OOAU5n+ccP4OYBC5ZxZEqnsrGfw==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-0cc5da60-f921-59b9-bd8c-a018e93c0a6f-common@17.2.1':
     resolution: {integrity: sha512-a3OGzAh3io7MQTa1HagPGFt1AuKoq652F4u1M/eyjfoKZZKn028X2lc7MyljtpQA65bEqTLe+FJbzk3BjW8GcQ==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-0cd5242b-7b61-5f66-ac25-ffa40baf8e8f-common@17.2.1':
     resolution: {integrity: sha512-ewewRs+Epevn0ihqj+DPuh9ka+zkQrP/SbzH29JK1SjpkknlNVsTlFfooo0eTTFnlKuKyl1G5Y9udh1gqw5bkw==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-0f262ee3-cace-5644-818e-eba5fe007685-common@17.2.1':
     resolution: {integrity: sha512-3vWEcOfVlWNCKfha2DKobGdUsJNy1n2DVX8jdhnCpAvWhK3F75ddptpk8Rs0JDANwRLf/34syPsRvpOfKpPsWA==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-0f5ced28-abde-558b-8652-db8e7d4d64aa-common@17.2.1':
     resolution: {integrity: sha512-Nvwyfi+7i6DKEqjTPb3cYyBbsveXTnerzljiJrikHElH5v9qeEqCMM1ozvMQ0DXq7dXzvvXjQ9w3RJHnTYQH3A==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-1021b67c-93e5-5c78-a270-cbdb2574d980-common@17.2.1':
     resolution: {integrity: sha512-sZyZad4KHD9KmCfUQQoGBzKfloy3lTO4IjOtCLnMYcS+6wnWowlQ5U7SvCjTIiH21LRSzm0bnaIh0WBcJUqJbg==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-15626ec7-b165-51e1-8caf-7bcc2ae9b95a-common@17.2.1':
     resolution: {integrity: sha512-NY04CzpRkplqlkWcLiYJLYp9em0j1GqV+USySxMWE07eDP4i8I9ugFmIUDzyHPssPRu8IdA4D0Cp1XSxNTZCkQ==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-158b9837-fc78-5d9c-86f5-9134e4358643-common@17.2.1':
     resolution: {integrity: sha512-58SRFYHxnF+sZ3Pwvz3w+1FcA+geXCzKziAV0/E7QEQRSDdwd8XBugFK5RBn0Q1/hxF5CYqJcwjy3q7JF0DgIA==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-1ae7d696-d960-5ac6-97a3-9fe7c8c3a793-common@17.2.1':
     resolution: {integrity: sha512-zUwNhz1x8AykWHZN2+2fZwWfBIufxsnORV8kP7hQskYuWKrLPGo2mUx9yrQmAMT/NLOp8OWcAPLRlcXW8sxhuw==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-1b4486de-4fe4-59c4-9e6d-34f265ff6625-common@17.2.1':
     resolution: {integrity: sha512-Asf/HWV0pMRLLQTwwDYHrfqWNgDkTCkcdo5O20gJkkeqFFk1FQnet4zvhTwrnolBv6HKr/mr9o3hb0EsfttBqA==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-1ba786a5-b7d7-5d26-8a85-ae48ee2a74a4-common@17.2.1':
     resolution: {integrity: sha512-Z+Jqj8Ex5kxivv/i2Kypvhh5L6ei2/K/759HxV9sGUd4ppmjUusyQZ0bcoRey/mMWi0XwASgWJHMSPcNbTmjLQ==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-1cb11a73-359e-5a2f-9e95-6989cc9858ee-common@17.2.1':
     resolution: {integrity: sha512-tZqRvnebAynLZ0DSeXVmmXF5YsHaQtAP4zIEBgS9dUpxgFIcrLScNqjMWKHu4WY/rpWw71MdGGRhneVLFIcIwQ==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-1cc4ea0a-c5b6-54ed-bb60-078a99119b55-common@17.2.1':
     resolution: {integrity: sha512-80xSNTrre/pcwqUmVVmqVM6zPInEAZFwzMJnmPkT1ScynJxH6McrZHy5D4gOvTTnK1AyzSdARgR7ZUWRbITpDQ==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-210e86a9-a91b-5273-b05d-390c776dde1f-common@17.2.1':
     resolution: {integrity: sha512-aHVqfQM5pI5ju6ee50oy+ZTg3sf53hQY08CgEm+Sa/grlLOw4M7rBaebBCHzdh8BzFs87vTp1gqbKBvwbMSLBg==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-256d5b78-0649-50e9-8354-2807f95f68f4-common@17.2.1':
     resolution: {integrity: sha512-1ACr0/cjNPKoYJALz+tAxr+bunxmosBW0912D+orDMSHWHkzpqx1MthOw/mmTOCoWpnhtPPL2QoqPGWeFpaFOw==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-25a9b730-95ad-54d3-8807-71421ad9b891-common@17.2.1':
     resolution: {integrity: sha512-e5kklvMGOx7BEG/1TVlhEDJ1Z+/N09We5IU7WjHa8YGxEJPisrkBOtwROk16EWkuqg4XiU1x8kLBSME2oixfgw==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-2a22c7b4-b906-5914-8cd1-3ed912fb738f-common@17.2.1':
     resolution: {integrity: sha512-DDaTb/QSRAkaCiU9FswnVtgxJVofyTxhrv0FAqS3FhfXpLQmoksHPNuOxfBInFObPOcKqV3vI6daBYc3nAWe7w==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-2a94c04a-b85b-5669-b06b-89c1bfa11cb9-common@17.2.1':
     resolution: {integrity: sha512-O7jKx9LrgdGzOVzufMwmdBQ8pcIRHeMRFc3bhHuk/+fC3vKIpAZlaPsVgssTXfcEJFlIkFPvV8v+GKtlv3TxhA==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-2f06fe84-148e-5e6b-a7ca-c7989c5f128a-common@17.2.1':
     resolution: {integrity: sha512-K85BPSZDoE8ZynhVqpVlQduqWoDqZ2YiFHLPynEGJvyZnoJtu+5fEQEK5ze468pS24tg0p9Rz2j7dpGUs/JcgQ==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-3109a756-1f83-5d09-945b-9f0fcad928f0-common@17.2.1':
     resolution: {integrity: sha512-c1ZR6OfGqewBpI7jQYMOhG/k/HhnGGtDF6pskcX3MOAvTyD7vesTWLaUhrunq5gK/S0HjM9ieXgtLuRyP9VeVA==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-324f9a6e-6231-5bfc-af17-e147abd2dfd2-common@17.2.1':
     resolution: {integrity: sha512-Lo1Jk1BiJp0eKToHjEC0IpKXGR51Ks3nH9Gy8gdGTRabcTKuNmNuvHtQ84FZEmG801JCQ9uQQeuGel9wtIkbGg==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-33833ac7-3af3-5e9d-8fb9-11838d852c59-common@17.2.1':
     resolution: {integrity: sha512-5ms5S861+px3QEGPeRhp08L2xT+KwG93Z+byRFCAdMRCB4RK66V0KkbozpDkMHiGdMUappPnwCENgFDygZJViA==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-34a0ffd3-b9f5-5699-b43b-38af5732f38a-common@17.2.1':
     resolution: {integrity: sha512-EhFSUcav4zL/8NzPbaLZBHb1vo03FPIKSSPmoGwutOmcq4J6+lr7ctAXdEJQrbp9aV8zCgl3VAqMDPJ++sTdaA==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-3cf6a388-482f-5484-a806-0525ad9ad8af-common@17.2.1':
     resolution: {integrity: sha512-AVTEZxRHrLx75492O+maEiQuXucihQqXodEaLpm5q1nN0Mehtf/0vMk+e+FWkOkdUcNdh6nPlDR62npjlNA/Xw==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-40cada32-7e9c-528a-81fc-766e4da54147-common@17.2.1':
     resolution: {integrity: sha512-D+/gGPjTE8KLrTTaVuJ7Nx+ckoJgaGkK8OV84VtDFfRmOu6bGMKD9W8a8qiKwV0rcgruUIDW6U4IKJjgK/coPA==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-422642f2-7e3a-5c1c-9e1e-1d3ef1817346-common@17.2.1':
     resolution: {integrity: sha512-5gETIl1/XPtzPm3mUq42uWlPmdytre2E7YujPR1zwzUhcm7/EBZrL77uePUgWBCPqfsizn6TTypBF5fVggHwOg==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-42931eb9-e564-530c-bafc-fa23ab43a070-common@17.2.1':
     resolution: {integrity: sha512-hF1aK+nZ/bMoSB9VWR9uazeHuGbUCNvsj6cvpzY73RhjyZnbopqpTFVACKjL1Ll67QnAfLtRzR6ZK29T4n9avQ==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-494be54c-bd37-5b3c-af70-02f086e28768-common@17.2.1':
     resolution: {integrity: sha512-AvGHb74ERRFoW4wB9J6Mz6+Uc2Az4f4EgGC3a0f5hKCjTneJIYkVokmnM6idhRKBA4qfiSCpWNfEbEKi5tyjYA==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-4a0e04a7-c3bd-5fb7-9d3b-4fd047cc9e59-common@17.2.1':
     resolution: {integrity: sha512-HqtJZPBzHHa8D5LGadsny+RXiALUIKdPIsdThumExn3y8Wwvl9Wxh3jup/ZdPH0/9hT8kPPuV2GmPrtZ+Qc4Ig==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-4a316137-39d1-5d77-8b53-112db3547c1e-common@17.2.1':
     resolution: {integrity: sha512-+vgdlcPdlp2tuvIsojw/da5nk5ToV/aKgcTF4ncwy4ZfLSjInLxYdu1xlik7erHyN3prJejsE0PJ8G/ek90vfg==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-4a3ac544-9a61-534c-88df-756262793ef7-common@17.2.1':
     resolution: {integrity: sha512-py6krzDp3rp/FjOvh/KnLWSPt9SaOz4l3TJIzKwOj7/rtfqqg5pp0tc6FZlIiIu6IyVTRESmOW7lPx9gyWPGYg==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-51fed910-d648-5620-9b80-9232cd79d116-common@17.2.1':
     resolution: {integrity: sha512-Q3QRftbHtbcFTK61b1znKkTNRgboUsW2piApwI1nJeFG+0J+e7kMfb9++WGEMQRGm/qaSuNOQi93LUk3FEGgrA==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-523730aa-81e6-55d7-9916-87ad537fe087-common@17.2.1':
     resolution: {integrity: sha512-fUk3+uPXoGZ2QMLGT5NmE9pr2yBww6jT4lMKLsDon0WlEC3VhbOJfaq8LUvdStXtUphOJPbLqX+yvvfS9PUzyA==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-5452e2b7-9081-5f95-839b-4ab3544ce28f-common@17.2.1':
     resolution: {integrity: sha512-9NZoWByG6fQgV/t8lWUz9v2/ug796VAnGOpw8J78yHyMAGx71CJGdhwKFOJ35+/fob0Ypd1ZDGgwdMsASR5PzA==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-5945a5e2-a66c-5a82-bd2c-1965724b29eb-common@17.2.1':
     resolution: {integrity: sha512-+Yj5D3y+EPn7I2RxOiRBJaViMplDN7H+fBPJ0t2xaCGWGawwbXw4iTurBzOW83Sk2bJzlCITSZnVjTeX7q9rRQ==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-65619f8f-0eab-5d8b-855a-43b6353fe527-common@17.2.1':
     resolution: {integrity: sha512-h723b8y4KFVHrfKDaBwlID2WTBQCTOnVFtY0B/XxMOxgddW1I/BWoJD6OZpyDqcLqDSs5wdZm7qC5Rt0vOhZbA==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-6845754f-e617-5ed9-8aaa-6ca3653a9532-common@17.2.1':
     resolution: {integrity: sha512-1v0OdeFUzj/qkBx0n6hkHxM6NASpC1G3uMj0qUwnGEO3neUwJIQV4lt5zzh8MpmFeND24a/WQgubWJYHoEEYXQ==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-6980eeab-47bb-5a48-8e15-32caf0785565-common@17.2.1':
     resolution: {integrity: sha512-EhlOGe3PQ5mb1gvazqHHH5ZEhLvPv1yaXbsCPSIRx9roFopc4QEgFw3Xp2kpUMJwlRe48cfzsjRY84ccVMGwEg==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-6bf85d7b-e6e3-54e9-9bc1-7e08d663f0f6-common@17.2.1':
     resolution: {integrity: sha512-d1CkNPa2fLTeQfR0JATLTkvb+DjKKCB+c5oE6b6NDEKJNb9wfCfM8O/q6/vC2FOT33BeUu2HGPWGPNx0NVV8JA==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-7443a901-21f6-577a-9674-42893b997ee0-common@17.2.1':
     resolution: {integrity: sha512-Lkhqi2dWqmeMFQKEFVHykn53vDGLaNofN8d3MD8v9X2/brPWgySspqTR2SExsCw8IQ2BVHxBP+oQ9H1T5GgOYQ==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-7bbc9e7d-eeae-55fc-8bf9-dc2f66e0dc73-common@17.2.1':
     resolution: {integrity: sha512-WMGLVQ/CNHBzZFr1YvxC8Zd5zMA86ZI/4nSYCyrVHbiiF/QTvqGUcqQslBY1AA2CeZEDa9/CfpTi+GFMVzprDQ==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-7f39b6f1-3542-5430-8760-0f404d7a7cee-common@17.2.1':
     resolution: {integrity: sha512-LmQpMWM63psKvsmuX/v5rABj0hU8u1gJTYoeP3nqMHszdtAP6t9Q9Aaf2aW6/hjSebF5ausQljU+8tBVpSbybg==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-85886bdb-61c5-52f1-8eb7-d1d32f6f8cbd-common@17.2.1':
     resolution: {integrity: sha512-bVRXsHTysn1POo0iDO+RaGv4voqCQmXgxbZj710153b/OShuVBdIkNlY/uS86EcqXK2gM84JP7KxfjRCdOrC0w==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-86d65fc6-30f9-5dca-9501-e249de688591-common@17.2.1':
     resolution: {integrity: sha512-qUHJJ5LiB3zoHLlp1Ge0UktLlfVcyQpvUdDrYG7Akl5jThYrPvU2m1ta5gmxry/ErhHgJ3KI5RvcKiL+kr54Lw==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-897bebad-39df-57cb-8a57-36a271d038be-common@17.2.1':
     resolution: {integrity: sha512-LeVA5lS59F1QKKI/k3ofdRVohOEq+sOvMZtfY+RQOfCgwHzyjiCWRk2Z50YNX+hNn1voesmgkD2k4xswOzPPbA==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-89a82baf-8ded-5b2f-b8af-e5fbd72dc5ad-common@17.2.1':
     resolution: {integrity: sha512-QJZJjwssru9unmzo6RvzW1Cylrr47ywoSIcXicd4sfQVYCwSFlszU4FpK2wLOjTbyGwHFn018HhYvU9TT7wZTA==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-8ccb7637-50ea-5359-97bf-00015d7fe567-common@17.2.1':
     resolution: {integrity: sha512-YiD/ccjRpH/KzBHg3gJlJRgEethyVqBx0ReyB2wrp6kumdcuY7a+5C2xSjbyjkdgthfEOO3dn0lct+scMAVFHw==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-912ff6c1-e6aa-58cf-bd7f-50cf27bdb591-common@17.2.1':
     resolution: {integrity: sha512-9QGFVMOco0b2uZq5DQPByjPlUCbFxYS7mA9V6PVcCXyqQs1e0s0WdjW/dvgiz77t4g21NvH/ddnRwXk5DqWS+A==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-95ea5c7c-15cf-50aa-8e24-38039b06b4a6-common@17.2.1':
     resolution: {integrity: sha512-aaP71J+/6N1C1vm0nJy3zVe4zpNYc6W6ykE0hN5HSHy+V/fuD70oVuLmKzq1jjZYeVBDPfnOFrimp32FNL/Yyg==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-96e83782-7f38-572e-8787-02e981f1c54f-common@17.2.1':
     resolution: {integrity: sha512-PkEcz4Wl/O2ASdwIQY9SQJoYUko/kR+W48n5ZxQ6Enzv6UtqY+I9LQC6etinx6VBlGTzY9RZT5fGkQ/I4WVChg==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-97284942-b044-5fbb-b53b-3f46d2468746-common@17.2.1':
     resolution: {integrity: sha512-QomHv5YHbRuLOFK3prFLxSbfM2Z8rKZQvr53a3gEHpI2ttqnHU4xu60QPW/2TnH7EqFmflCz+uMx3MQZugyKtg==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-9a1a5840-af83-5d07-a156-ba32a36c5c4b-common@17.2.1':
     resolution: {integrity: sha512-n9G+pxI0q4L3UH6zuXVaozqqE0kHozbsWW4GW1PiKm1aOMulDMlIZzK6dWDZTX644vl4xgEvlceMnv90D8v47g==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-9c72783f-914c-50be-b9ef-da16356d81a8-common@17.2.1':
     resolution: {integrity: sha512-wk+hgdzNLyrzHuk3QwMXhuSDbTWYlGrE2iX0FMsdFaSnrElz5PpNtXfoUlBauTk5+n1cLF1VF6gM0/ptUyycvw==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-9c84f943-bcb5-5bcf-92a6-91f66a732f26-common@17.2.1':
     resolution: {integrity: sha512-ZveOOsOt64atw9JLx6S53UwxtCgUkku+JROrhG4MSNRog248sPkiyDwZZ02ZfByxY2KeRWtEnZBDuf1bVszGQg==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-9d0168a3-519b-57f3-9bcc-89efc41f951a-common@17.2.1':
     resolution: {integrity: sha512-sH8weRd7UGEqKOrG5KmazbhPwuDQ4hlZtXaGru+w6MlTX3BWeNLQkFtVZ+uVVf6ji9iZicP4Y9/nByWuefRYgA==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-9ee79c1a-3f03-568b-8eac-b02513a98b68-common@17.2.1':
     resolution: {integrity: sha512-+ZfWrD9T7au5OXjk++mpoZsdyPLtxz8g5dvp4N0CZDg9DC4H77HVtptgm/DOEhLNHzq7ODBwFU6J3nPEFGmuFQ==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-9efc1f50-c7de-55d6-8b28-bcc88bd49b5a-common@17.2.1':
     resolution: {integrity: sha512-Z8K60pXB1/BGdyVN9vz0pMejLJgg0S1O+0KReQ60levN4VWIDQZLvM3iQ3tRzeymfefie1+SKoI7RSGRCI3Cyw==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-9f229325-8261-585c-a552-16085958c680-common@17.2.1':
     resolution: {integrity: sha512-AzJgAMmStC++Wz+E6o8SNG5OULzLebbCYryx0FQzutm7I1bc4LLgkySQKY+gho9LgY9GR28gmRji7HiobFaZ3A==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-a2719803-af40-5ae9-a29f-8a2231c33056-common@17.2.1':
     resolution: {integrity: sha512-MCcldtN0xeyDB5ywTj/Jy5AJD4sKYX/A/TXXrGfhHeFVWqfgWne4FrxtW0+rPIKU9sfGcEvu9kBgBMOLdKmWxA==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-a3eaa464-944c-5b8f-8886-213068ba4897-common@17.2.1':
     resolution: {integrity: sha512-4V0KDxZsD0nhUk6mJRP+/Mlg8c5UfdBRA9p3zMQr+d3KQkbtEYOSfF70Sjn1xQqu1IU/kVyFL+noRVC16ZDEZQ==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-a7c9ae3c-16d2-5d17-86b2-981be7094566-common@17.2.1':
     resolution: {integrity: sha512-lvJGAniSloPwoN0CgP8tGk552EVije0/kqDkR7xrVgxymawjEc9wMLvnmuk8e+lrpviMel705cpatZbO91Yw6g==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-ab07af84-42e8-5a0f-8aef-b83fb90ede21-common@17.2.1':
     resolution: {integrity: sha512-qQ9Xgc3krqomS57d21pOsoNKKCg5kH7VozsLqCpwF6yzoBPMSZG/aA7PJuV4J/9KLuQSuqOtx2j2/ZaUETY/4A==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-abed5a84-8a82-5f84-9412-88a736235bae-common@17.2.1':
     resolution: {integrity: sha512-2h6ccbODv6tfo0gVCQRMyRKznrDNA4IueqSz7FoQWJcVE8JAfniF4zctdz5NuBlIjWKmx+pWwVxGIabNggrIcQ==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-api@17.2.1':
     resolution: {integrity: sha512-0/pC5SEoWePFOxBQJJypV0ROMMO03pOmq411OJmmmLi5oxsxEtKzhKgt+9GpfkkvPQ4il95A9UZvWtXBXC8kwg==}
 
   '@codingame/monaco-vscode-b1e8558d-1726-5299-bc75-e43ee6d1a124-common@17.2.1':
     resolution: {integrity: sha512-DwE6CU7RxL3MojePRBCSG+dU1i2fKSbfLKHxKzVJiXs1Hq//NhlO9XPWk/nPyDMUzWsT/XVpxhdOeVDHSWEMRQ==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-b4efa70b-52b9-5670-ab5c-f10b10b6834e-common@17.2.1':
     resolution: {integrity: sha512-4PDwFBomvpA6jG9g1fxwvMpVTP4pXkf0ZTr/KtFdPLMRi3RxC8Au+YKxc3T5BMBZRh5naTc4BGahFuBl0nQWsg==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-b71b5434-ce96-5581-8993-e8da380bd63f-common@17.2.1':
     resolution: {integrity: sha512-0TghOb8TvQoKVvfisfaEILaA6FEMZH6dNR+PPUFIxU8to2camYBERrK3dWkT1qWxUzFzVqwtn2ugTLUGItmy1g==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-base-service-override@17.2.1':
     resolution: {integrity: sha512-LjDH+hhwMCLddl8SFHtrMJZYYTnCDvWac69QTlP110YnXELIacav3e+yV4wkUcYhd6QOvB90Ic5vvCG/9wdRXg==}
 
   '@codingame/monaco-vscode-bba55be6-41a2-50cd-a3cc-8bafa35bfa89-common@17.2.1':
     resolution: {integrity: sha512-rUOmVBo54MwtB7pxt4AI/La0EiwjvXkyZZwbpFcNJJM3ugMb80qHlCMLo3wWjrBEkvFTgDrHKA1iJlfYlmmUCQ==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-be8ddbb5-094a-5657-b1cc-fe106c94c632-common@17.2.1':
     resolution: {integrity: sha512-uNFTJ4l9NvrTa6AMTcXKLu8OqyaqQtQJHo36dZjGDLrfUJF8f9+8PhhXqMRAT8tTVsNX0diEY0k775hNPa/d+Q==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-bf94ddb5-e436-506a-9763-5ab86b642508-common@17.2.1':
     resolution: {integrity: sha512-1YkDY3cAnWTaCWoPUXgr5pup7oo9LAaFGTEHSNFwzs+yrwcetojXl/fMVlXz1tf2DE6Cj98uh0Axy/BBZTtUOQ==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-bulk-edit-service-override@17.2.1':
     resolution: {integrity: sha512-zD1g5NKpkRmB8V89IqccogP3i4hA/YbAXWozKU2EiBBbFFq4Sk1/K1Nv/6Zmyslhmq9ZO2TYWWRC6Eqp3uC+kA==}
 
   '@codingame/monaco-vscode-c3c61c00-c254-5856-9dc9-d7929c1f9062-common@17.2.1':
     resolution: {integrity: sha512-vY0INTqEV7Z0QbnYYuwmIixlFC17OXrQ6HTxh+aadoamJL8O2BpVLUPReL92rSz0aHiGb7f0pZfdw9X4kd3Ttg==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-c465110a-57c0-59d7-a6b2-be0a4db7e517-common@17.2.1':
     resolution: {integrity: sha512-YYQEXSl3uQvQzOexnjOAZE781xTp1D44+ofe7A8El4bawc6dtxXrN4i0VDBACTX6qYwQrfb+HaB0nGdpWiF6cg==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-cea4d01f-6526-5c2f-8b09-b168fead499f-common@17.2.1':
     resolution: {integrity: sha512-oPkDT2MsGr4sNUi32WnkOmY0VeTtmXy+GMidQQBefzLK0vQEbnywvVjDNkJNfw6njiYK86kgC4hdkZPhiMYI0A==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-configuration-service-override@17.2.1':
     resolution: {integrity: sha512-Nd459xZQzfDOvXxp4MgElks5Lho4Le4CB5ERYrmc/I2Pgf0QS17ThojraXamnKWfDOaibduBz/VjIUAr7+ajnw==}
 
   '@codingame/monaco-vscode-d0fb86d3-2a47-594e-955b-9a24631a7124-common@17.2.1':
     resolution: {integrity: sha512-4XU5GXfoSGgFlZaFlp6DTEa/rEeG5HVD2RnRTjfgOm+eTumu5VU+NhWdk85MO4WaAU2V5dFfqqmT4jrpAHC37A==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-d26a96d3-122c-5a3d-a04d-deb5ff0f19c0-common@17.2.1':
     resolution: {integrity: sha512-aOYWJcqsparBkMz6O1MwE/DwHxMOfq72EozIZxxJIp06D4TbRqSdRyd6tBo1VEJX3qmuP3QAkykgpwgw+iBHtQ==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-d481a59e-259c-524e-bee1-76483d75d3a1-common@17.2.1':
     resolution: {integrity: sha512-KL2zpUxsdI6izzUOL52iZDi4YqI2x5S2OKvVb1jjN8C+vgHywuFxd6GOnjO/SS6fch5uH2W4T/GT5jG1BavGcQ==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-d609a7d3-bf87-551a-884f-550a8b327ec5-common@17.2.1':
     resolution: {integrity: sha512-6orw/bqfVKx71wMN5jfqQEjEr5MktuIDphJ7koONPJlD+KreQRH22/H2l8O2dtqiqWpOw/5ny5oIyKlHW9L4hQ==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-d7f659f5-da33-5ea8-a3b8-9b94f2cf5f33-common@17.2.1':
     resolution: {integrity: sha512-5PfA7OV4Moky7yHjxfew3qtQhEb9P4vVbq/McqkPppuwJdETsdnfpz0GE01qkm24WpAXp2WXtAH91hVFamfyOQ==}
+    deprecated: Package no longer supported
 
   '@codingame/monaco-vscode-d987325e-3e05-53aa-b9ff-6f97476f64db-common@17.2.1':
     resolution: {integrity: sha512-YT66ahHwli1Jco+zQGPscNbv8+QtPluZ1Oi0ANUK3jmlDIBZTj1GuyYpbxHxHE7WCmL0l1T5PPto7B4Kg8Vi0g==}
@@ -1103,66 +1178,79 @@ packages:
     resolution: {integrity: sha512-F8sWbhZ7tyuEfsmOxwc2giKDQzN3+kuBLPwwZGyVkLlKGdV1nvnNwYD0fKQ8+XS6hp9nY7B+ZeK01EBUE7aHaw==}
     cpu: [arm]
     os: [linux]
+    libc: [glibc]
 
   '@rollup/rollup-linux-arm-musleabihf@4.57.1':
     resolution: {integrity: sha512-rGfNUfn0GIeXtBP1wL5MnzSj98+PZe/AXaGBCRmT0ts80lU5CATYGxXukeTX39XBKsxzFpEeK+Mrp9faXOlmrw==}
     cpu: [arm]
     os: [linux]
+    libc: [musl]
 
   '@rollup/rollup-linux-arm64-gnu@4.57.1':
     resolution: {integrity: sha512-MMtej3YHWeg/0klK2Qodf3yrNzz6CGjo2UntLvk2RSPlhzgLvYEB3frRvbEF2wRKh1Z2fDIg9KRPe1fawv7C+g==}
     cpu: [arm64]
     os: [linux]
+    libc: [glibc]
 
   '@rollup/rollup-linux-arm64-musl@4.57.1':
     resolution: {integrity: sha512-1a/qhaaOXhqXGpMFMET9VqwZakkljWHLmZOX48R0I/YLbhdxr1m4gtG1Hq7++VhVUmf+L3sTAf9op4JlhQ5u1Q==}
     cpu: [arm64]
     os: [linux]
+    libc: [musl]
 
   '@rollup/rollup-linux-loong64-gnu@4.57.1':
     resolution: {integrity: sha512-QWO6RQTZ/cqYtJMtxhkRkidoNGXc7ERPbZN7dVW5SdURuLeVU7lwKMpo18XdcmpWYd0qsP1bwKPf7DNSUinhvA==}
     cpu: [loong64]
     os: [linux]
+    libc: [glibc]
 
   '@rollup/rollup-linux-loong64-musl@4.57.1':
     resolution: {integrity: sha512-xpObYIf+8gprgWaPP32xiN5RVTi/s5FCR+XMXSKmhfoJjrpRAjCuuqQXyxUa/eJTdAE6eJ+KDKaoEqjZQxh3Gw==}
     cpu: [loong64]
     os: [linux]
+    libc: [musl]
 
   '@rollup/rollup-linux-ppc64-gnu@4.57.1':
     resolution: {integrity: sha512-4BrCgrpZo4hvzMDKRqEaW1zeecScDCR+2nZ86ATLhAoJ5FQ+lbHVD3ttKe74/c7tNT9c6F2viwB3ufwp01Oh2w==}
     cpu: [ppc64]
     os: [linux]
+    libc: [glibc]
 
   '@rollup/rollup-linux-ppc64-musl@4.57.1':
     resolution: {integrity: sha512-NOlUuzesGauESAyEYFSe3QTUguL+lvrN1HtwEEsU2rOwdUDeTMJdO5dUYl/2hKf9jWydJrO9OL/XSSf65R5+Xw==}
     cpu: [ppc64]
     os: [linux]
+    libc: [musl]
 
   '@rollup/rollup-linux-riscv64-gnu@4.57.1':
     resolution: {integrity: sha512-ptA88htVp0AwUUqhVghwDIKlvJMD/fmL/wrQj99PRHFRAG6Z5nbWoWG4o81Nt9FT+IuqUQi+L31ZKAFeJ5Is+A==}
     cpu: [riscv64]
     os: [linux]
+    libc: [glibc]
 
   '@rollup/rollup-linux-riscv64-musl@4.57.1':
     resolution: {integrity: sha512-S51t7aMMTNdmAMPpBg7OOsTdn4tySRQvklmL3RpDRyknk87+Sp3xaumlatU+ppQ+5raY7sSTcC2beGgvhENfuw==}
     cpu: [riscv64]
     os: [linux]
+    libc: [musl]
 
   '@rollup/rollup-linux-s390x-gnu@4.57.1':
     resolution: {integrity: sha512-Bl00OFnVFkL82FHbEqy3k5CUCKH6OEJL54KCyx2oqsmZnFTR8IoNqBF+mjQVcRCT5sB6yOvK8A37LNm/kPJiZg==}
     cpu: [s390x]
     os: [linux]
+    libc: [glibc]
 
   '@rollup/rollup-linux-x64-gnu@4.57.1':
     resolution: {integrity: sha512-ABca4ceT4N+Tv/GtotnWAeXZUZuM/9AQyCyKYyKnpk4yoA7QIAuBt6Hkgpw8kActYlew2mvckXkvx0FfoInnLg==}
     cpu: [x64]
     os: [linux]
+    libc: [glibc]
 
   '@rollup/rollup-linux-x64-musl@4.57.1':
     resolution: {integrity: sha512-HFps0JeGtuOR2convgRRkHCekD7j+gdAuXM+/i6kGzQtFhlCtQkpwtNzkNj6QhCDp7DRJ7+qC/1Vg2jt5iSOFw==}
     cpu: [x64]
     os: [linux]
+    libc: [musl]
 
   '@rollup/rollup-openbsd-x64@4.57.1':
     resolution: {integrity: sha512-H+hXEv9gdVQuDTgnqD+SQffoWoc0Of59AStSzTEj/feWTBAnSfSD3+Dql1ZruJQxmykT/JVY0dE8Ka7z0DH1hw==}
@@ -1443,6 +1531,9 @@ packages:
   azure-devops-node-api@12.5.0:
     resolution: {integrity: sha512-R5eFskGvOm3U/GzeAuxRkUsAl0hrAwGgWn6zAd2KrZmrEhWZVqLew4OOupbQlXUuojUzpGtq62SmdhJ06N88og==}
 
+  balanced-match@1.0.2:
+    resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
+
   balanced-match@4.0.4:
     resolution: {integrity: sha512-BLrgEcRTwX2o6gGxGOCNyMvGSp35YofuYzw9h1IMTRmKqttAZZVU67bdb9Pr2vUHA8+j3i2tJfjO6C6+4myGTA==}
     engines: {node: 18 || 20 || >=22}
@@ -1462,6 +1553,12 @@ packages:
 
   boundary@2.0.0:
     resolution: {integrity: sha512-rJKn5ooC9u8q13IMCrW0RSp31pxBCHE3y9V/tp3TdWSLf8Em3p6Di4NBpfzbJge9YjjFEsD0RtFEjtvHL5VyEA==}
+
+  brace-expansion@1.1.15:
+    resolution: {integrity: sha512-EwOCDEex4quD37XhqM3omwtMoJjr//isUZz1JopUNWms+4Z2ViyM/k1YIRePpoVNnQhENnxtFjLaxNHrT7xIUg==}
+
+  brace-expansion@2.1.1:
+    resolution: {integrity: sha512-WR1cURNjuvBLMZBMbqM0UoE+WAfdUcEV1ccD8PVBVOI+Z3ND4+SZbN8RsfT2bMuG1qwz5RFvPukSZm5fF2D5eA==}
 
   brace-expansion@5.0.3:
     resolution: {integrity: sha512-fy6KJm2RawA5RcHkLa1z/ScpBeA762UF9KmZQxwIbDtRJrgLzM10depAiEQ+CXYcoiqW1/m96OAAoke2nE9EeA==}
@@ -1535,6 +1632,9 @@ packages:
   commander@12.1.0:
     resolution: {integrity: sha512-Vw8qHK3bZM9y/P10u3Vib8o/DdkvA2OtPtZvD871QKjy74Wj1WSKFILMPRPSdUSx5RFK1arlJzEtA4PkFgnbuA==}
     engines: {node: '>=18'}
+
+  concat-map@0.0.1:
+    resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
 
   cross-spawn@6.0.6:
     resolution: {integrity: sha512-VqCUuhcd1iB+dsv8gxPttb5iZh/D0iubSP21g36KXdEuf6I5JiioesUVjpCdHV9MZRUfVFlvwtIUyPfxo5trtw==}
@@ -1889,9 +1989,8 @@ packages:
     resolution: {integrity: sha512-UcVfVfaK4Sc4m7X3dUSoHoozQGBEFeDC+zVo06t98xe8CzHSZZBekNXH+tu0NalHolcJ/QAGqS46Hef7QXBIMw==}
     engines: {node: '>=16'}
 
-  isexe@3.1.1:
-    resolution: {integrity: sha512-LpB/54B+/2J5hqQ7imZHfdU31OlgQqx7ZicVlkm9kzg9/w8GKLEcFfJl/t7DCEDueOyBAD6zCCwTO6Fzs0NoEQ==}
-    engines: {node: '>=16'}
+  isexe@2.0.0:
+    resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
 
   istanbul-lib-coverage@3.2.2:
     resolution: {integrity: sha512-O8dpsF+r0WV/8MNRKfnmrtCWhuKjxrq2w+jpzBL5UZKTi2LeVWnWOmWRxFlesJONmc+wLAGvKQZEOanko0LFTg==}
@@ -2061,6 +2160,13 @@ packages:
     resolution: {integrity: sha512-+G4CpNBxa5MprY+04MbgOw1v7So6n5JY166pFi9KfYwT78fxScCeSNQSNzp6dpPSW2rONOps6Ocam1wFhCgoVw==}
     engines: {node: 18 || 20 || >=22}
 
+  minimatch@3.1.5:
+    resolution: {integrity: sha512-VgjWUsnnT6n+NUk6eZq77zeFdpW2LWDzP6zFGrCbHXiYNul5Dzqk2HHQ5uFH2DNW5Xbp8+jVzaeNt94ssEEl4w==}
+
+  minimatch@5.1.9:
+    resolution: {integrity: sha512-7o1wEA2RyMP7Iu7GNba9vc0RWWGACJOCZBJX2GJWip0ikV+wcOsgVuY9uE8CPiyQhkGFSlhuSkZPavN7u1c2Fw==}
+    engines: {node: '>=10'}
+
   minimist@1.2.8:
     resolution: {integrity: sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==}
 
@@ -2210,6 +2316,7 @@ packages:
   prebuild-install@7.1.3:
     resolution: {integrity: sha512-8Mf2cbV7x1cXPUILADGI3wuhfqWvtiLA1iclTDbFRZkgRQS0NqsPZphna9V+HyTEadheuPmjaJMsbzKQFOzLug==}
     engines: {node: '>=10'}
+    deprecated: No longer maintained. Please contact the author of the relevant native addon; alternatives are available.
     hasBin: true
 
   prettier@3.8.1:
@@ -2541,6 +2648,7 @@ packages:
 
   uuid@8.3.2:
     resolution: {integrity: sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==}
+    deprecated: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
     hasBin: true
 
   validate-npm-package-license@3.0.4:
@@ -4411,7 +4519,7 @@ snapshots:
       leven: 3.1.0
       markdown-it: 14.1.0
       mime: 1.6.0
-      minimatch: 10.2.2
+      minimatch: 3.1.5
       parse-semver: 1.1.1
       read: 1.0.7
       secretlint: 10.2.2
@@ -4469,6 +4577,8 @@ snapshots:
       tunnel: 0.0.6
       typed-rest-client: 1.8.11
 
+  balanced-match@1.0.2: {}
+
   balanced-match@4.0.4: {}
 
   base64-js@1.5.1:
@@ -4488,6 +4598,15 @@ snapshots:
   boolbase@1.0.0: {}
 
   boundary@2.0.0: {}
+
+  brace-expansion@1.1.15:
+    dependencies:
+      balanced-match: 1.0.2
+      concat-map: 0.0.1
+
+  brace-expansion@2.1.1:
+    dependencies:
+      balanced-match: 1.0.2
 
   brace-expansion@5.0.3:
     dependencies:
@@ -4578,6 +4697,8 @@ snapshots:
       delayed-stream: 1.0.0
 
   commander@12.1.0: {}
+
+  concat-map@0.0.1: {}
 
   cross-spawn@6.0.6:
     dependencies:
@@ -4988,7 +5109,7 @@ snapshots:
     dependencies:
       is-inside-container: 1.0.0
 
-  isexe@3.1.1: {}
+  isexe@2.0.0: {}
 
   istanbul-lib-coverage@3.2.2: {}
 
@@ -5151,6 +5272,14 @@ snapshots:
   minimatch@10.2.2:
     dependencies:
       brace-expansion: 5.0.3
+
+  minimatch@3.1.5:
+    dependencies:
+      brace-expansion: 1.1.15
+
+  minimatch@5.1.9:
+    dependencies:
+      brace-expansion: 2.1.1
 
   minimist@1.2.8: {}
 
@@ -5775,7 +5904,7 @@ snapshots:
 
   vscode-languageclient@9.0.1:
     dependencies:
-      minimatch: 10.2.2
+      minimatch: 5.1.9
       semver: 7.7.3
       vscode-languageserver-protocol: 3.17.5
 
@@ -5812,11 +5941,11 @@ snapshots:
 
   which@1.3.1:
     dependencies:
-      isexe: 3.1.1
+      isexe: 2.0.0
 
   which@2.0.2:
     dependencies:
-      isexe: 3.1.1
+      isexe: 2.0.0
 
   why-is-node-running@2.3.0:
     dependencies:
